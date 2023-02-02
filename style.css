@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/calculator');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(113, 103, 250);
+}
+
+.container {
+
+
+
+    position: absolute;
+    background-color: #282424;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+
+}
+
+
+.inputResult {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    height: 14%;
+    position: absolute;
+    width: 96%;
+    background-color: transparent;
+    border: 1px solid white ;
+    color: white;
+    font-size: 28px;
+    text-align: end;
+    padding-right: 3.6%;
+    font-family: 'Calculator', sans-serif;
+
+}
+
+
+
+.botao {
+    width: 65px;
+    height: 65px;
+    margin: 1px;
+    border: none;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+
+.table {
+    margin-top: 20%;
+
+    }
